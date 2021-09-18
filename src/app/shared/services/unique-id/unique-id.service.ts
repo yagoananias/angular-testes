@@ -22,5 +22,10 @@ export class UniqueIdService {
     return uuidv4();
   }
 
+  public teste(nome : string) {
+    let n = nome;
+    return n;
+  }
+
 
 }
