@@ -7,11 +7,11 @@ describe ('UniqueIdService', () => {
     const id = service.generateUniqueIdWithPrefix('app');
     expect(id).toContain('app-');
   })
-  // it('teste', () => {
-  //   const service = new UniqueIdService();
-  //   const name = service.teste('yago');
-  //   expect(name).toContain('yago');
-  // })
+  it('teste', () => {
+    const service = new UniqueIdService();
+    const name = service.teste('yago');
+    expect(name).toContain('yago');
+  })
 
 });
 
